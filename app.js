@@ -657,7 +657,7 @@ function exportToCSV() {
     const csvContent = [
         headers.join(','),
         ...entries.map(entry => [
-            entry.hNumber,
+            entry.hNumber, 
             entry.date,
             `"${entry.patientName}"`,
             entry.age,
