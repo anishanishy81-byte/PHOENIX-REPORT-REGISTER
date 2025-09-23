@@ -214,7 +214,7 @@ function setupUserInterface(userName) {
 // Generate H number (but don't increment counter until save)
 function generateHNumber() {
     const currentYear = new Date().getFullYear();
-    let counter = parseInt(localStorage.getItem('phoenixHNumberCounter') || '0999');
+    let counter = parseInt(localStorage.getItem('phoenixHNumberCounter') || '0');
     const nextNumber = counter + 1;
 
     currentHNumber = `H-${nextNumber.toString().padStart(4, '0')}/${currentYear}`;
