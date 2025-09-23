@@ -558,7 +558,7 @@ function editEntry(index) {
         </div>
         <div class="form-group">
             <label class="form-label">Containers</label>
-            <input type="number" id="editContainers" class="form-control" value="${entry.containers}">
+            <input type="text" id="editContainers" class="form-control" value="${entry.containers}">
         </div>
         <div class="form-group">
             <label class="form-label">Test</label>
