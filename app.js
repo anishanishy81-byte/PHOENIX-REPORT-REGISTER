@@ -61,6 +61,7 @@ const credentials = {
     "SHARAN": { password: "8892970383", role: "SHARAN", name: "User One" },
     "MANU": { password: "9947502699", role: "MANU", name: "User Two" },
     "SUDHAKAR": { password: "8309205985", role: "SUDHAKAR", name: "User Three" },
+"ADAM": { password: "8073507830", role: "ADAM", name: "User FOUR" },
     "APARNA": { password: "7483912387", role: "APARNA", name: "Technician" }
 };
 
