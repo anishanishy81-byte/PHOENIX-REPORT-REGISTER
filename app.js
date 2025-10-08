@@ -727,8 +727,8 @@ function loadLoginActivity() {
 
 // Admin Controls
 function resetHNumberCounter() {
-    if (confirm('Are you sure you want to reset the H Number counter? This will start numbering from H-1059/YYYY again.')) {
-        localStorage.setItem('phoenixHNumberCounter', '1058');
+    if (confirm('Are you sure you want to reset the H Number counter? This will start numbering from H-1070/YYYY again.')) {
+        localStorage.setItem('phoenixHNumberCounter', '1069');
         generateHNumber();
         alert('H Number counter has been reset successfully!');
     }
